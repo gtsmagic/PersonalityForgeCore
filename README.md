@@ -1,3 +1,3 @@
 # PersonalityForgeCore
  
-This repository contains a .NET Core 3 Port of James James Wright Personality Forge Library. 
+This repository contains a .NET Core 3 Port of James Wright Personality Forge Library. 
