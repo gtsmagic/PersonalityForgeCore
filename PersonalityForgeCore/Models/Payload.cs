@@ -1,9 +1,9 @@
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.Serialization;
-using JamesWright.PersonalityForgeCore.Models;
+using PersonalityForgeCore.Models;
 
-namespace JamesWright.PersonalityForge.Models
+namespace PersonalityForge.Models
 {
 	[DataContract]
 	internal class Payload

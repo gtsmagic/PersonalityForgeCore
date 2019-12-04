@@ -1,16 +1,16 @@
 using System;
-using JamesWright.PersonalityForgeCore.Models;
-using JamesWright.PersonalityForgeCore.Interfaces;
+using PersonalityForgeCore.Models;
+using PersonalityForgeCore.Interfaces;
 using System.Threading.Tasks;
 
-namespace JamesWright.PersonalityForgeCore
+namespace PersonalityForgeCore
 {
-	public class PersonalityForge : IPersonalityForge
+	public class PersonalityForgeClient : IPersonalityForge
 	{
 		private ApiInfo _apiInfo;
 		private IPersonalityForgeDataService _dataService;
 
-		public PersonalityForge(string secret, string key, int botId)
+		public PersonalityForgeClient(string secret, string key, int botId)
 		{
 			_apiInfo = new ApiInfo
 			{
@@ -23,7 +23,7 @@ namespace JamesWright.PersonalityForgeCore
 		}
 
 		//constructor for injecting dependencies
-		internal PersonalityForge(IPersonalityForgeDataService dataService)
+		internal PersonalityForgeClient(IPersonalityForgeDataService dataService)
 		{
 			_dataService = dataService;
 		}

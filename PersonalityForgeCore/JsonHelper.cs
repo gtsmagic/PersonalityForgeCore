@@ -3,10 +3,10 @@ using System.Runtime.Serialization.Json;
 using System.Runtime.Serialization;
 using System.IO;
 using System.Text;
-using JamesWright.PersonalityForgeCore.Interfaces;
+using PersonalityForgeCore.Interfaces;
 using System.Runtime.CompilerServices;
 
-namespace JamesWright.PersonalityForgeCore
+namespace PersonalityForgeCore
 {
 	internal class JsonHelper : IJsonHelper
 	{

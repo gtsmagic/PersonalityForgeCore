@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.CompilerServices;
 
-namespace JamesWright.PersonalityForgeCore
+namespace PersonalityForgeCore
 {
 	internal class ApiInfo
 	{

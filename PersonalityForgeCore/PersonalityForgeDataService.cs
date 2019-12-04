@@ -2,17 +2,17 @@ using System;
 using System.Net;
 using System.Text;
 using System.Web;
-using JamesWright.PersonalityForgeCore.Models;
-using JamesWright.PersonalityForgeCore.Interfaces;
+using PersonalityForgeCore.Models;
+using PersonalityForgeCore.Interfaces;
 using System.Threading.Tasks;
 using System.Runtime.CompilerServices;
-using JamesWright.PersonalityForge.Models;
+using PersonalityForge.Models;
 
-namespace JamesWright.PersonalityForgeCore
+namespace PersonalityForgeCore
 {
 	internal class PersonalityForgeDataService : IPersonalityForgeDataService
 	{
-		private const string _host = "http://www.personalityforge.com/api/chat/";
+		private const string _host = "https://www.personalityforge.com/api/chat/";
 		private WebClient _client;
 		private IJsonHelper _jsonHelper;
 		private IUtils _utils;

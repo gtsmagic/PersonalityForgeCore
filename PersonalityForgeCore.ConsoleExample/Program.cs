@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using JamesWright.PersonalityForgeCore;
-using JamesWright.PersonalityForgeCore.Interfaces;
-using JamesWright.PersonalityForgeCore.Models;
+using PersonalityForgeCore;
+using PersonalityForgeCore.Interfaces;
+using PersonalityForgeCore.Models;
 
-namespace JamesWright.PersonalityForgeCore.ConsoleExample
+namespace PersonalityForgeCore.ConsoleExample
 {
     class Program
     {
@@ -15,9 +15,10 @@ namespace JamesWright.PersonalityForgeCore.ConsoleExample
 
         static void Main(string[] args)
         {
-            _personalityForge = new PersonalityForge("", "", 000000);
+            _personalityForge = new PersonalityForgeClient("", "", 121209);
 
             Console.Write("Enter a username: ");
+
             string username = Console.ReadLine();
             Converse(username);
         }

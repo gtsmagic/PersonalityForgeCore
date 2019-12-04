@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JamesWright.PersonalityForgeCore.Interfaces
+namespace PersonalityForgeCore.Interfaces
 {
     interface IUtils
     {

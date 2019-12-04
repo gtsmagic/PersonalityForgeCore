@@ -6,6 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\JamesWright.PersonalityForgeCore\JamesWright.PersonalityForgeCore.csproj" />
+    <ProjectReference Include="..\PersonalityForgeCore\PersonalityForgeCore.csproj" />
   </ItemGroup>
 </Project>

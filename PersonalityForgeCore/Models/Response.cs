@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace JamesWright.PersonalityForgeCore.Models
+namespace PersonalityForgeCore.Models
 {
 	[DataContract]
 	public class Response

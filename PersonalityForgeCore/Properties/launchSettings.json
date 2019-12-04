@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "JamesWright.PersonalityForgeCore": {
+    ".PersonalityForgeCore": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

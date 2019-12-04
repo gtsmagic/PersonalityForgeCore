@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using JamesWright.PersonalityForgeCore.Models;
+using PersonalityForgeCore.Models;
 
-namespace JamesWright.PersonalityForgeCore.Interfaces
+namespace PersonalityForgeCore.Interfaces
 {
     public interface IPersonalityForge
     {

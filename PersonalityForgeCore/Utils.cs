@@ -3,10 +3,10 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Web;
-using JamesWright.PersonalityForgeCore.Interfaces;
+using PersonalityForgeCore.Interfaces;
 using System.Runtime.CompilerServices;
 
-namespace JamesWright.PersonalityForgeCore
+namespace PersonalityForgeCore
 {
 	class Utils : IUtils
 	{
