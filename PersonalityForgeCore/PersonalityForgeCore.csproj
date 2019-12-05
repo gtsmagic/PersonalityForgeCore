@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Pete Smith</Authors>
+    <Company />
+    <Product>PersonalityForge for .NET Core</Product>
+    <Description>A .NET Core Nuget Package for working with PersonalityForge. The initial version is based on James Wright's .NET Framework version, but will be maintained separately and new features will be added as time goes on.</Description>
+    <Copyright>Pete Smith 2019</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/gtsmagic/PersonalityForgeCore</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/gtsmagic/PersonalityForgeCore.git</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>PersonalityForge</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
