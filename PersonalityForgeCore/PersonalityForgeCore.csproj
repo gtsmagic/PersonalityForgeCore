@@ -7,16 +7,26 @@
     <Company />
     <Product>PersonalityForge for .NET Core</Product>
     <Description>A .NET Core Nuget Package for working with PersonalityForge. The initial version is based on James Wright's .NET Framework version, but will be maintained separately and new features will be added as time goes on.</Description>
-    <Copyright>Pete Smith 2019</Copyright>
+    <Copyright>Pete Smith 2024</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/gtsmagic/PersonalityForgeCore</PackageProjectUrl>
     <RepositoryUrl>https://github.com/gtsmagic/PersonalityForgeCore.git</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
     <PackageTags>PersonalityForge</PackageTags>
+    <FileVersion>2.0.0.0</FileVersion>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="Program.cs" />
     <Compile Remove="Startup.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 </Project>
